@@ -1,0 +1,88 @@
+@import "page.css";
+@import "header.css";
+@import "footer.css";
+
+
+.main-container {
+    position: relative;
+    min-height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "hd hd hd hd hd"
+        "main main main main main"
+        "ft ft ft ft ft";
+    color: #363638;
+}
+
+main {
+    grid-area: main;
+}
+
+.cards-container {
+    font-family: 'Lato','Helvetica Neue', Arial, sans-serif;
+    font-weight: 100;
+
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+.card {
+    border: 1px solid #d3d3d3;
+    border-radius: .25rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+    position: relative;
+    top: 0;
+    
+
+}
+
+.card:hover {
+    top: -2px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+
+.bg-img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.content {
+    padding: 15px;
+    background-color: rgba(#fff, 0.5);
+}
+
+
+button {
+    background-color: transparent;
+    border: 1px solid #363638;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: .25rem;
+} 
+
+
+@media (min-width: 30em) {
+    .cards-container {
+        grid-template-columns: 1fr 1fr;
+    } 
+}
+
+@media (min-width: 60em) {
+    .cards-container {
+        grid-template-columns: repeat(4, 1fr);
+    } 
+}
