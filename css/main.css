@@ -1,12 +1,15 @@
-@import "page.css";
 @import "header.css";
 @import "footer.css";
 
-
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
 .main-container {
-    position: relative;
-    min-height: 100vh;
     font-family: 'Oswald', sans-serif;
+    color: #363638;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -14,7 +17,10 @@
         "hd hd hd"
         "main main main"
         "ft ft ft";
-    color: #363638;
+
+    min-height: 100vh;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 main {
@@ -25,8 +31,8 @@ main {
     font-family: 'Lato','Helvetica Neue', Arial, sans-serif;
     font-weight: 100;
 
-    width: 90%;
-    max-width: 1240px;  
+    width: 100;
+    max-width: 1300px;  
     margin: 0 auto;
     
     display: grid;
@@ -44,7 +50,7 @@ main {
     flex-direction: column;
     min-height: 100%;
     flex-wrap: wrap;
-
+    
     position: relative;
     top: 0;
 }
@@ -54,21 +60,15 @@ main {
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
   }
 
-.img1 {
+.card-img {
     background-image: url("/css/pexels-photo-1666021.jpeg");
     padding-bottom: 60%;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 .content {
     padding: 20px;
-    background-color: rgba(#fff, 0.5);
-    flex: 1;
-
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
 }
 
 
