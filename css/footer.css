@@ -3,10 +3,10 @@ footer {
     background-color: #363638;
     color: #feda84;
     text-align: center;
-    margin-top: 15px;
-    align-self: end;
+
 }
 
-a {
+.policy {
     color: #feda84;
+    text-decoration: none;
 }
