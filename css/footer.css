@@ -1,12 +1,11 @@
 footer {
     grid-area: ft;
-    background-color: #363638;
-    color: #feda84;
+    border-top: solid #363638;
+    color: #363638;
     text-align: center;
-
+    margin-top: 20px;
 }
 
 .policy {
-    color: #feda84;
-    text-decoration: none;
+    color: #363638;
 }
