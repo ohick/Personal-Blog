@@ -4,44 +4,65 @@
 }
 
 .title {
-    background-image: url("cat.jpg");
+    background-image: url("/img/cat.jpg");
     background-size: cover;
     background-position: 10% 50%;
-    overflow: hidden;
     width: 100%;
     font-size: 2em;
-    text-align: start;
-    color: #363638;
+    color: #2d2d2e;
     padding-left: 10%;
+    padding: 8%;
+    font-size: 60px;
+    margin: 0;
 }
 
-.homepage {
-    color: #363638;
-    text-decoration: none;
+.link:hover {
+    color: #e49203;
 }
 
-a:hover {
-    color: #E49203;
-}
-
-nav {
+.menu-container {
     grid-area: menu;
-}
-
-ul.header-menu {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    width: auto;
-    flex-basis: auto;
     list-style: none;
-    padding: 0.5em;
     border-top: solid #363638;
     border-bottom: solid #363638;
+    margin: 0;
 }
 
 .link {
-    margin: 10px;
+    margin: .5em .5em .5em 3em;
     color: #363638;
     text-decoration: none;
+}
+
+button {
+    padding: .5em;
+    border: none;
+}
+
+button:hover {
+    color: #e49203;
+    cursor:pointer;
+}
+
+input {
+    border: none;
+    padding: .5em;
+    background-color: #ecedf2;
+}
+
+
+@media (min-width: 31em) {
+    .menu-container {
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+        margin: .5em 0 .5em 0;
+        } 
+    
+    #search {
+            margin-left: auto;
+    }
 }

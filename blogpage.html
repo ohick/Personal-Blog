@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,53 +9,61 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/84940dc671.js" crossorigin="anonymous"></script>
     <title>Blog Post</title>
 </head>
 
 <body>
     <div class="main-container">
         <header class="header">
-            <div class="title">
-                <h1><a href="index.html" class="homepage">Blog</a></h1>
-            </div>
-            <nav>
-                <ul class="header-menu">
-                    <li><a href="#" class="link">Link 1</a></li>
-                    <li><a href="#" class="link">Link 2</a></li>
-                    <li><a href="#" class="link">Link 3</a></li>
-                    <li><a href="#" class="link">Link 4</a></li>
-                </ul>
+            <h1 class="title">Blog</h1>
+            <nav class="menu-container">
+                <a href="index.html" class="link">Home</a>
+                <a href="" class="link">About</a>
+                <a href="#contact" class="link">Contact</a>
+                <div class="link" id="search">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
             </nav>
+
         </header>
 
         <main class="post-container">
             <article class="content">
                 <h2>Blog Post</h2>
-                <p>Spicy jalapeno bacon ipsum dolor amet beef ribs ground round shank, venison shankle bacon buffalo
+                <p class="text">Spicy jalapeno bacon ipsum dolor amet beef ribs ground round shank, venison shankle
+                    bacon buffalo
                     ribeye sausage pancetta tri-tip beef. Cow pig rump turducken ham hock ground round boudin kevin,
                     alcatra turkey meatloaf ball tip. Pork belly ball tip meatloaf, beef ribs spare ribs leberkas filet
                     mignon pork shoulder swine tenderloin tail chuck. Andouille porchetta chuck, ham venison chicken
                     cupim frankfurter rump filet mignon.</p>
 
-                <p>Swine meatball shank, chicken flank spare ribs alcatra pastrami burgdoggen picanha. Pork pig pork
+                <p class="text">Swine meatball shank, chicken flank spare ribs alcatra pastrami burgdoggen picanha. Pork
+                    pig pork
                     loin filet mignon short ribs, doner prosciutto tongue meatball tail. Shankle venison boudin kevin,
                     brisket alcatra fatback. Andouille short loin flank shankle jowl strip steak biltong beef ribs.</p>
 
-                <p>Andouille pork spare ribs, tail chuck ball tip meatloaf fatback kielbasa. Short loin fatback
+                <p class="text">Andouille pork spare ribs, tail chuck ball tip meatloaf fatback kielbasa. Short loin
+                    fatback
                     chislic, turkey shankle boudin filet mignon t-bone landjaeger shoulder ball tip chuck jerky. Pork
                     belly shank brisket doner venison spare ribs shankle pig. Pig bacon short loin sausage, venison
                     frankfurter shoulder hamburger. Tri-tip prosciutto meatball tail bresaola, doner rump tenderloin
                     turducken. Porchetta pastrami andouille, brisket turkey ground round spare ribs beef sirloin
                     burgdoggen sausage. Kevin brSesaola ham spare ribs landjaeger.</p>
 
-                <p>Corned beef buffalo pork strip steak spare ribs drumstick chislic filet mignon salami tail chicken
+                <p class="text">Corned beef buffalo pork strip steak spare ribs drumstick chislic filet mignon salami
+                    tail chicken
                     boudin tongue shoulder. Shoulder tenderloin kielbasa turducken tongue, cow tail picanha leberkas
                     landjaeger ground round andouille. Filet mignon chuck swine meatball. Tri-tip cupim sirloin,
                     prosciutto pig fatback short loin. Porchetta bresaola flank chuck. Shoulder short ribs picanha
                     shankle short loin jerky shank, buffalo bacon leberkas frankfurter turducken beef ribs kielbasa.
                     Chuck porchetta alcatra, t-bone beef sirloin pork belly.</p>
 
-                <p>Pig venison biltong short ribs andouille bresaola capicola turkey cupim swine short loin. Cow spare
+                <p class="text">Pig venison biltong short ribs andouille bresaola capicola turkey cupim swine short
+                    loin. Cow spare
                     ribs t-bone, shankle tail pork meatloaf flank. Spare ribs tongue pork chop cow, corned beef salami
                     fatback alcatra tenderloin short loin buffalo bresaola. Salami rump t-bone venison. Short loin beef
                     chicken chislic landjaeger ball tip salami. Meatball flank leberkas frankfurter tri-tip short loin
@@ -63,29 +72,44 @@
                     Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s
                     tasty!</p>
             </article>
-            <div class="push"></div>
+
         </main>
 
         <div class="sidebar">
             <section class="about">
                 <h3>About the author</h3>
-                <img src="/css/BMO-from-Adventure-Time.png" class="bmo">
-                <p>Bacon ipsum dolor amet chislic shoulder alcatra cow meatloaf. Short ribs t-bone ribeye chislic
+                <img src="/img/BMO-from-Adventure-Time.png" class="bmo" alt="Portait of the author">
+                <p>BMO, CEO of Company</p>
+                <p class="text">Bacon ipsum dolor amet chislic shoulder alcatra cow meatloaf. Short ribs t-bone ribeye
+                    chislic
                     hamburger chuck. Pancetta boudin corned beef chicken salami shoulder.</p>
+                <q>Yummy!</q>
             </section>
             <ul class="sidebar-links">
                 <h3>Popular posts</h3>
-                <li><a href="#" class="link">Side link 1</a></li>
-                <li><a href="#" class="link">Side link 2</a></li>
-                <li><a href="#" class="link">Side link 3</a></li>
-                <li><a href="#" class="link">Side link 4</a></li>
+                <li><a href="#" class="side-link">Side link 1</a></li>
+                <li><a href="#" class="side-link">Side link 2</a></li>
+                <li><a href="#" class="side-link">Side link 3</a></li>
+                <li><a href="#" class="side-link">Side link 4</a></li>
             </ul>
+            <section class="social-network">
+                <h3>Follow us!</h3>
+                <div class="social-link">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square fa-3x"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter-square fa-3x"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram fa-3x"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin fa-3x"></i></a>
+                </div>
+
+            </section>
         </div>
         <div class="push"></div>
 
         <footer>
-            <p>By using our site, you acknowledge that you have read and understand our <a href="" class="policy">non-existant
-                    Policy</a>
+            <p id="contact">Contact us : <a href="mailto:phonyemail@emailadress.com"
+                    class="mail">phonyemail@emailadress.com</a></p>
+            <p>By using our site, you acknowledge that you have read and understand our <a href=""
+                    class="policy">non-existant Policy</a>
             </p>
         </footer>
     </div>
