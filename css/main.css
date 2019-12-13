@@ -1,5 +1,6 @@
 @import "header.css";
 @import "footer.css";
+@import "page.css";
 
 /* Main structure */
 
@@ -26,7 +27,7 @@ html, body {
     margin: 0 auto;
 }
 
-main {
+.main {
     grid-area: main;
 }
 
@@ -116,6 +117,19 @@ main {
 
 .content {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.more { 
+    margin-top: auto;
+    align-self: flex-end;
+    display: inline;
+    color: #c9c8c8;
+}
+
+.fa-arrow-circle-right {
+    margin-left: .5em;;
 }
 
 /* Responsive */
