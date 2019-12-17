@@ -77,49 +77,49 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 /* Cards design */
 
 .card-img1 {
-    background-image: url("/img/pexels-photo-1666021.jpeg"); 
+    background-image: url(img/pexels-photo-1666021.jpeg); 
     padding-bottom: 60%; 
     background-size: cover;
     background-position: center;
 }
 
 .card-img2 {
-    background-image: url("/img/fall-autumn-red-season.jpg"); 
+    background-image: url(img/fall-autumn-red-season.jpg); 
     padding-bottom: 60%; 
     background-size: cover;
     background-position: center;
 }
 
 .card-img3 {
-    background-image: url("/img/nature-forest-trees-fog.jpeg"); 
+    background-image: url(img/nature-forest-trees-fog.jpeg); 
     padding-bottom: 60%; 
     background-size: cover;
     background-position: center;
 }
 
 .card-img4 {
-    background-image: url("/img/pexels-photo-870711.jpeg"); 
+    background-image: url(img/pexels-photo-870711.jpeg); 
     padding-bottom: 60%; 
     background-size: cover;
     background-position: center;
 }
 
 .card-img5 {
-    background-image: url("/img/pexels-photo-994605.jpeg"); 
+    background-image: url(img/pexels-photo-994605.jpeg); 
     padding-bottom: 60%; 
     background-size: cover;
     background-position: center;
 }
 
 .card-img6 {
-    background-image: url("/img/pexels-photo.jpg"); 
+    background-image: url(img/pexels-photo.jpg); 
     padding-bottom: 60%; 
     background-size: cover;
     background-position: center;
 }
 
 .card-img7 {
-    background-image: url("/img/pexels-photo-414171.png"); 
+    background-image: url(img/pexels-photo-414171.png); 
     padding-bottom: 60%; 
     background-size: cover;
     background-position: center;
